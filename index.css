@@ -18,8 +18,7 @@ html {
   }
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Inter', 'Krona One', sans-serif;
 }
 
 .header {
@@ -32,12 +31,97 @@ body {
     display: flex;
 }
 
-.header-title {
+.header-nav-title {
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
     color: #FFFFFF;
     padding-top: 23px;
     padding-left: 120px;
-    
+    font-family: 'Krona One';
+}
+
+.header-nav {
+  padding-top: 26px;
+  padding-left: 600px;
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 50px;
+}
+
+.header-nav-login {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 5px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.header-wrapper {
+  display: flex;
+}
+
+.header-text-title {
+  font-family: 'Krona One';
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-top: 221px;
+  padding-left: 120px;
+}
+
+.header-text-discription {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 120px;
+  padding-top: 32px;
+  padding-bottom: 47px;
+  color: #FFFFFF;
+}
+
+.header-text-link {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-left: 120px;
+  background-color: #E0FF00;
+  border-radius: 6px;
+  padding: 18px 47px;
+  text-decoration: none;
+}
+
+.header-img {
+  display: block;
+  margin-left: -310px;
+  margin-top: -22px;
+}
+
+.section1-title {
+  font-family: 'Krona One';
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 70px;
+  padding-top: 200px;
+  padding-left: 140px;
+  color: #000000;
+  letter-spacing: -0.03em;
+text-transform: capitalize;
+}
+
+.section1-video {
+  padding-left: 202px;
+  padding-top: 80px;
+  border-radius: 5px;
 }
