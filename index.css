@@ -21,3 +21,15 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Krona One', sans-serif;
 }
+
+.header-container {
+    display: flex;
+    width: 1440px;
+}
+
+.header-title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    
+}
