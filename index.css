@@ -397,6 +397,11 @@ input {
   color: #000000;
 }
 
+.buttun:hover {
+  color: red;
+  background-color: #000000;
+}
+
 .faq {
   padding-bottom: 135px;
 }
